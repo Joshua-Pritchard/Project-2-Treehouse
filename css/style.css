@@ -64,7 +64,6 @@ ul {
 }
 
 .top-navigation a {
-  /* display: block; */
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -80,11 +79,11 @@ ul {
 }
 
 #name {
-  background-color: transparent;
+  background-color: none;
   border: none;
   padding: 6px 0;
   margin-bottom: 7%;
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: bold;
   text-align: center;
 }
@@ -225,7 +224,7 @@ footer li:nth-child(6n) {
   }
 
   .top-navigation a:hover {
-    color: white;
+    color: grey;
   }
 
   .top-navigation {
@@ -250,10 +249,6 @@ footer li:nth-child(6n) {
   .class-portcard {
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .port-card {
-    flex: 50%;
   }
 
   #contact
@@ -313,17 +308,7 @@ footer li:nth-child(6n) {
     margin-top: 2rem;
   }
 
-  .profile {
-    clear: both;
-    margin: 0 auto;
-    padding-top: 2%;
-    width: 95%;
-  }
 
-  header img {
-    min-width: 450px;
-    width: 100%;
-  }
 
   header p {
     line-height: 1.8rem;
@@ -333,20 +318,6 @@ footer li:nth-child(6n) {
     /* font-size: 1rem; */
   }
 
-  .port-card {
-    flex: 30%;
-  }
 
-  aside p:nth-child(2n) {
-    margin: 0 25%;
-  }
 
-  footer {
-    padding-bottom: 0;
-  }
-
-  main {
-    width: 97%;
-    margin: auto;
-  }
 }
