@@ -55,7 +55,7 @@ ul {
   background-color: pink;
   padding: 0.2em 0;
   width: 100%;
-  margin: 5px auto;
+  margin: 20px auto;
   font-size: 1em;
 }
 
@@ -127,7 +127,7 @@ img {
 .contact {
   font-size: 18px;
   margin-left: 10px;
-  border: 10px;
+
   padding: 20px;
 }
 
