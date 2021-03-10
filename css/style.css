@@ -1,25 +1,26 @@
-*{
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 /* || General Styles ------------------- */
 
+html, body {
+  height: 100%;
+}
+
 body {
-  background-color: pink;
-  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  margin: 0 auto;
-  padding: 0;
+  color: black;
+  background-color: none;
 }
 
 h2 {
   font-size: 20px;
-  font-weight: bold;
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 1.2rem;
+  font-weight: bolder;
+  font-size: 1.75rem;
 }
 
 p {
@@ -28,14 +29,15 @@ p {
 
 a {
   text-decoration: none;
-  color: black;
+  text-transform: uppercase;
+  color: hotpink;
 }
 
 .wrapper {
   margin: 0 auto;
   padding: 0;
 }
-.mobile {
+.top {
   font-size: 15px;
 }
 /* || Header and Main Nav ------------------- */
@@ -53,7 +55,7 @@ ul {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: lightpink;
+  background-color: none;
   padding: 0.2em 0;
   width: 100%;
   margin: 5px auto;
@@ -89,9 +91,9 @@ header {
 
 /* Main ------------------- */
 
-#portfolio
- {
+#portfolio {
   padding-bottom: 1rem;
+  font-weight: bold;
 }
 
 .profile {
@@ -122,33 +124,34 @@ hr {
   width: 95%;
 }
 
-footer li {
-  font-weight: bold;
-  text-transform: uppercase;
-  list-style-type: none;
-  float: right;
-  margin: 20px 0 40px 0;
-  padding-right: 5%;
+ul {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding: 0 20px;
+  height: 100px;
+  background-color: none;
+}
+.full {
   display: none;
 }
-
-footer li:first-child,
-footer li:nth-child(6n) {
-  text-transform: none;
-  float: left;
-  padding-left: 5%;
-  display: inline-block;
-}
-
 /* Media Queries ----------------------------*/
 
-@media screen and (min-width: 768px) {
-  .top-navigation {
-    display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
-    padding-bottom: 3rem;
+@media (min-width: 768px) {
+  .top {
+    display: none;
   }
+  .full {
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
+
 
   .top-navigation {
     height: 10vh;
