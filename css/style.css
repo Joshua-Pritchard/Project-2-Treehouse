@@ -14,15 +14,11 @@ body {
 
 h2 {
   font-size: 20px;
-  font-weight: normal;
-}
-.mobile {
-  font-size: 15px;
   font-weight: bold;
 }
 
 h3 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.2rem;
 }
 
@@ -35,15 +31,13 @@ a {
   color: black;
 }
 
-a:visited {
-  text-decoration: none;
-}
-
 .wrapper {
   margin: 0 auto;
   padding: 0;
 }
-
+.mobile {
+  font-size: 15px;
+}
 /* || Header and Main Nav ------------------- */
 
 ul {
@@ -59,9 +53,9 @@ ul {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: pink;
+  background-color: lightpink;
   padding: 0.2em 0;
-  width: 90%;
+  width: 100%;
   margin: 5px auto;
   font-size: 1em;
 }
@@ -196,8 +190,6 @@ footer li:nth-child(6n) {
   }
 
   /* Body */
-
-
   footer li:nth-child(5n),
   footer li:nth-child(4n),
   footer li:nth-child(3n),
