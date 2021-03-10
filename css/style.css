@@ -103,29 +103,6 @@ header {
   letter-spacing: 1px;
   padding-top: 5px;
 }
-.box-1 {
-  background-color: none;
-}
-
-.box-2 {
-  background-color: none;
-}
-
-.box-3 {
-  background-color: none;
-}
-
-.box-4 {
-  background-color: none;
-}
-
-.box-5 {
-  background-color: none;
-}
-
-.box-6 {
-  background-color: none;
-}
 img {
   max-width: 100%;
 }
@@ -165,21 +142,23 @@ footer {
 /* Media Queries ----------------------------*/
 
 @media (min-width: 768px) {
+  .top-navigation {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 10%;
+    padding-bottom: 3rem;
+    height: 10vh;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+  }
 
   .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
-  nav a  {
-       width: initial;
-   }
-  header nav {
-   text-align: center;
- }
- header nav a {
-   width: initial;
- }
  header p {
    width: 25%;
    float: left;
@@ -201,6 +180,11 @@ footer {
 }
 
 @media (min-width: 1024px) {
+  .top-navigation {
+   margin-top: 2rem;
+   float: right;
+   width: 40%;
+ }
   .clearfix::after {
          content: "";
          clear: both;
