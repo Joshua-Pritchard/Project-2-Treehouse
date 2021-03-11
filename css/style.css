@@ -142,6 +142,7 @@ footer {
 /* Media Queries ----------------------------*/
 
 @media (min-width: 768px) {
+
   .top-navigation {
     display: flex;
     flex-direction: row;
@@ -159,7 +160,10 @@ footer {
     clear: both;
     display: table;
   }
- header p {
+  header nav {
+  text-align: center;
+}
+  header p {
    width: 25%;
    float: left;
  }
@@ -173,7 +177,6 @@ footer {
       display: inline-block;
       margin-left: 20px;
     }
-}
   .col {
     flex-basis: calc(50% - 20px);
   }
