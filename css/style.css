@@ -176,7 +176,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
+    flex-flow: wrap row-reverse;
   }
   .portfolio {
     display: flex;
@@ -207,8 +207,7 @@ footer {
        display: flex;
        justify-content: center;
        align-items: center;
-       flex-direction: row-reverse
-       flex-wrap: wrap;
+       flex-flow: wrap row-reverse;
      }
   .port-card {
     flex-basis: calc(33.333% - 20px);
