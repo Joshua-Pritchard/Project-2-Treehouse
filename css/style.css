@@ -14,7 +14,6 @@ body {
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   color: black;
-  background-color: none;
 }
 ul {
   list-style: none;
@@ -36,10 +35,6 @@ a {
 h2 {
    color: black;
 }
-.contact {
-  font-weight: none;
-
-}
 /* || Header and Main Nav ------------------- */
 
 ul {
@@ -54,7 +49,6 @@ nav a:visited {
 .top-navigation a {
   text-transform: uppercase;
   font-weight: bold;
-  background-color: none;
 }
 
 .top-navigation li {
@@ -91,8 +85,6 @@ header p {
 header {
   margin: 0 20px;
 }
-
-}
 /* Main ------------------- */
 
 .col {
@@ -126,7 +118,6 @@ hr {
 footer {
   display: flex;
   justify-content: space-between;
-  align-items: right;
   align-items: center;
   margin-top: auto;
   padding: 0 20px;
@@ -169,6 +160,7 @@ footer {
  }
  header img {
    float: right;
+   width: auto;
  }
   .top {
       display: none;
@@ -177,11 +169,25 @@ footer {
       display: inline-block;
       margin-left: 20px;
     }
-  .col {
+  .port-card {
     flex-basis: calc(50% - 20px);
   }
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .contact {
+   align-self: flex-end;
 }
-
 @media (min-width: 1024px) {
   .top-navigation {
    margin-top: 2rem;
@@ -197,7 +203,23 @@ footer {
          display: inline;
          float: left;
      }
-  .col {
+     .profile {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: row-reverse
+       flex-wrap: wrap;
+     }
+  .port-card {
     flex-basis: calc(33.333% - 20px);
-  }
+}
+  .contact {
+   align-self: flex-end;
+}
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
