@@ -185,9 +185,10 @@ footer {
   }
   .profile {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: wrap row-reverse;
+    float: right;
+    margin-left: 10%;
   }
   .portfolio {
     display: flex;
@@ -197,6 +198,10 @@ footer {
   }
   .contact {
    align-self: flex-end;
+}
+.intro-text {
+  display: flex;
+  flex-direction: row-reverse;
 }
 @media (min-width: 1024px) {
   .top-navigation {
@@ -213,14 +218,7 @@ footer {
          display: inline;
          float: left;
      }
-     .profile {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-flow: wrap row-reverse;
-       float: right;
-       margin-left: 20%;
-     }
+
   .port-card {
     flex-basis: calc(33.333% - 20px);
 }
