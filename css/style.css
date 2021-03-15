@@ -124,6 +124,10 @@ footer {
 .full {
   display: none;
 }
+.footer-nav a:visited {
+    text-decoration: none;
+    color: hotpink;
+}
 /* Media Queries ----------------------------*/
 
 @media (min-width: 768px) {
