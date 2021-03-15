@@ -87,7 +87,10 @@ header {
   margin: 0 20px;
 }
 /* Main ------------------- */
-
+.portfolio {
+  padding: 5px;
+  margin: 10px;
+}
 .port-card {
   margin: 10px;
   min-height: 250px;
@@ -156,13 +159,13 @@ footer {
   text-align: center;
 }
   header p {
-   width: 29%;
+   width: 45%;
  }
  .profile-image {
      float: right;
-     width: 35%;
-     margin: 15px;
-     padding: 20px;
+     width: 40%;
+     margin: auto;
+     padding: 10px;
  }
   .top {
       display: none;
@@ -182,7 +185,6 @@ footer {
   }
   .portfolio {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
@@ -221,7 +223,6 @@ footer {
 }
 .portfolio {
   display: flex;
-  justify-content: space-around;
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
