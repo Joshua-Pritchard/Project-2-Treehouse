@@ -58,7 +58,7 @@ nav a:visited {
   background-color: pink;
   padding: 0.2em 0;
   width: 100%;
-  margin: 20px auto;
+  margin: 18px auto;
   font-size: 1em;
 }
 
@@ -73,7 +73,7 @@ nav a:visited {
 
 header img {
   display: block;
-  width: 70%;
+  width: 75%;
   margin: auto;
   padding: 8% 0;
 }
@@ -124,10 +124,6 @@ footer {
 .full {
   display: none;
 }
-
-.top-navigation li {
-  background-color: transparent;
-}
 /* Media Queries ----------------------------*/
 
 @media (min-width: 768px) {
@@ -143,6 +139,9 @@ footer {
     align-items: center;
     margin: auto;
   }
+  .top-navigation li {
+    background-color: transparent;
+  }
 
   .clearfix::after {
     content: "";
@@ -155,9 +154,11 @@ footer {
   header p {
    width: 29%;
  }
- header img {
-   float: right;
-   width: auto;
+ .profile-image {
+     float: right;
+     width: 35%;
+     margin: 15px;
+     padding: 20px;
  }
   .top {
       display: none;
