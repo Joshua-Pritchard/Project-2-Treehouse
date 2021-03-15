@@ -86,7 +86,8 @@ header img {
 
   header p {
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
   }
 
 header {
@@ -164,9 +165,9 @@ footer {
   header nav {
   text-align: center;
 }
-  header p {
-   width: 45%;
- }
+header p {
+  width: 45%;
+}
  .profile-image {
      float: right;
      width: 40%;
@@ -198,10 +199,6 @@ footer {
   }
   .contact {
    align-self: flex-end;
-}
-.intro-text {
-  display: flex;
-  flex-direction: row-reverse;
 }
 @media (min-width: 1024px) {
   .top-navigation {
