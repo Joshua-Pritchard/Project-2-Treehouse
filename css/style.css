@@ -78,10 +78,10 @@ header img {
   padding: 8% 0;
 }
 
-header p {
-  text-align: justify;
-  letter-spacing: normal;
-}
+  header p {
+    display: flex;
+    justify-content: center;
+  }
 
 header {
   margin: 0 20px;
