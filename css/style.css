@@ -79,7 +79,8 @@ header img {
 }
 
 header p {
-  padding-bottom: 3rem;
+  text-align: justify;
+  letter-spacing: normal;
 }
 
 header {
@@ -87,13 +88,12 @@ header {
 }
 /* Main ------------------- */
 
-.col {
+.port-card {
   margin: 10px;
   min-height: 250px;
   color: white;
   text-align: center;
-  letter-spacing: 1px;
-  padding-top: 5px;
+  letter-spacing: 2px;
 }
 img {
   max-width: 100%;
@@ -106,10 +106,8 @@ img {
 .contact {
   font-size: 18px;
   margin-left: 10px;
-
   padding: 20px;
 }
-
 /* Footer ------------------- */
 hr {
   width: 95%;
@@ -207,6 +205,8 @@ footer {
        justify-content: center;
        align-items: center;
        flex-flow: wrap row-reverse;
+       float: right;
+       margin-left: 20%;
      }
   .port-card {
     flex-basis: calc(33.333% - 20px);
