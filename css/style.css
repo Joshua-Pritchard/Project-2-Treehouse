@@ -69,8 +69,7 @@ nav a:visited {
 }
 
 #name {
-  border: none;
-  padding: 6px 0;
+  padding: 6px 30px;
   margin-bottom: 7%;
   font-size: 1.75em;
   font-weight: bold;
@@ -88,11 +87,9 @@ header img {
     display: flex;
     flex-direction: row-reverse;
     justify-content:flex-end;
+    margin: 20px;
   }
 
-header {
-  margin: 0 20px;
-}
 /* Main ------------------- */
 .portfolio {
   padding: 5px;
@@ -121,6 +118,7 @@ img {
 /* Footer ------------------- */
 hr {
   width: 95%;
+  border-style: dashed;
 }
 
 footer {
@@ -165,15 +163,21 @@ footer {
   header nav {
   text-align: center;
 }
-header p {
+
+.profile img {
   width: 45%;
+  display: inline;
+  padding: 0 20px;
+  float: right;
+  order: 2;
+  align-self: flex-start;
 }
- .profile-image {
-     float: right;
-     width: 40%;
-     margin: auto;
-     padding: 10px;
- }
+.profile p {
+ float: left;
+ order: 1;
+ text-align: left;
+}
+
   .top {
       display: none;
     }
@@ -184,13 +188,7 @@ header p {
   .port-card {
     flex-basis: calc(50% - 20px);
   }
-  .profile {
-    display: flex;
-    align-items: flex-start;
-    flex-flow: wrap row-reverse;
-    float: right;
-    margin-left: 10%;
-  }
+
   .portfolio {
     display: flex;
     align-items: flex-start;
@@ -211,20 +209,21 @@ header p {
          clear: both;
          display: table;
        }
-     h1 {
+  h1 {
          display: inline;
          float: left;
      }
-
+     .profile img {
+       width: 45%;
+       display: inline;
+       padding: 0 20px;
+       float: right;
+       order: 2;
+       align-self: flex-start;
+     }
   .port-card {
     flex-basis: calc(33.333% - 20px);
 }
   .contact {
    align-self: flex-end;
-}
-.portfolio {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
