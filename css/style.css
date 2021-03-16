@@ -173,9 +173,9 @@ footer {
   align-self: flex-start;
 }
 .profile p {
- float: left;
- order: 1;
- text-align: left;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:flex-end;
 }
 
   .top {
@@ -212,14 +212,6 @@ footer {
   h1 {
          display: inline;
          float: left;
-     }
-     .profile img {
-       width: 45%;
-       display: inline;
-       padding: 0 20px;
-       float: right;
-       order: 2;
-       align-self: flex-start;
      }
   .port-card {
     flex-basis: calc(33.333% - 20px);
