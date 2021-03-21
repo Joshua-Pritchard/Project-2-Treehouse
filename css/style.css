@@ -216,7 +216,7 @@ footer {
          clear: both;
          display: table;
        }
-  h1 {
+  #name {
          display: inline;
          float: left;
      }
