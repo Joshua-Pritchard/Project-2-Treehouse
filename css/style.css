@@ -69,11 +69,11 @@ nav a:visited {
 }
 
 #name {
-  padding: 6px 30px;
-  margin-bottom: 7%;
+  padding: 20px;
+  border: 20px;
+  margin: 20px;
   font-size: 1.75em;
   font-weight: bold;
-  text-align: center;
 }
 
 header img {
@@ -203,6 +203,7 @@ footer {
   }
   .contact {
    align-self: flex-end;
+  }
 }
 @media (min-width: 1024px) {
   .top-navigation {
