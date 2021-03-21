@@ -117,6 +117,7 @@ img {
 }
 /* Footer ------------------- */
 hr {
+  margin: auto;
   width: 95%;
   border-style: dashed;
 }
@@ -218,4 +219,5 @@ footer {
 }
   .contact {
    align-self: flex-end;
+ }
 }
