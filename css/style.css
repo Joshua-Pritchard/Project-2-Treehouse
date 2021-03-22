@@ -119,6 +119,9 @@ img {
 .contact p {
   padding: .5rem;
 }
+.contact a {
+  color: hotpink;
+}
 /* Footer ------------------- */
 hr {
   margin: auto;
